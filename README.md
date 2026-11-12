@@ -37,10 +37,10 @@ O sistema deve ser capaz de controlar a quantidade disponível de produtos, com 
 
 # Estrutura das Classes
 ## ***PRODUTO***:
-- cod -- Id do Produto
-- nome -- nome do produto
-- preco -- preço do produto
-- estoque -- quantidade disponível
+> - cod -- Id do Produto
+> - nome -- nome do produto
+> - preco -- preço do produto
+> - estoque -- quantidade disponível
 
 ## ***CLIENTE***
 > - cpf -- cpf do cliente
@@ -49,9 +49,10 @@ O sistema deve ser capaz de controlar a quantidade disponível de produtos, com 
 > - email -- email do cliente
 
 # Persistência de Dados
-Os dados serão armazenados em arquivos ´´´.csv´´´
+Os dados serão armazenados em arquivos .csv
 > - Salvar dados no arquivo
 > - Carregar os dados salvos ao iniciar
 
-
+# Separação da Equipe:
+O matheus vai separar bonitinho
 # INSTRUÇÕES DE EXECUÇÃO:
