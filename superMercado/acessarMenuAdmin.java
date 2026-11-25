@@ -1,17 +1,35 @@
 import java.util.Scanner;
 public class acessarMenuAdmin {
-    public void acessarMenuAdmin() {
-        Scanner sc1 = new Scanner(System.in);
+    public void AdmMenu() {
+        Scanner sc = new Scanner(System.in);
         System.out.print("Digite a senha de acesso: ");
-        String senha = sc1.nextLine();
-        System.out.println("Senha digitada: " + senha);
-    
+        String senha = sc.nextLine();
+
         if (senha.equals("6769")) {
-            //cadastrarProduto();
-        } 
+            System.out.println("Menu de admin:");
+            System.out.println("================================");
+            System.out.println("1. Cadastrar Produto");
+            System.out.println("2. Remover Produto");
+            System.out.println("3. Voltar");
+
+            String opcao = sc.nextLine();
+
+            switch (opcao) {
+                //case "1" -> CadastroP();
+                //case "2" -> RemoverP();
+                case "3" -> Voltar();
+            }
+        }
             else {
         System.out.println("Senha incorreta. Voltando ao menu principal...");
+        return;
+            }
+        
+        sc.close();
     }
-}   
-    
+
+     public static void Voltar() {
+        System.out.println("Voltando ao menu principal...");
+        return;
+    }
 }

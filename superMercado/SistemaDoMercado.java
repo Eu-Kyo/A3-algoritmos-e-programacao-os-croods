@@ -33,7 +33,7 @@ public class SistemaDoMercado {
                 //case 2 -> listarProdutos();
                 //case 3 -> removerProduto();
                 //case 4 -> finalizarCompra();
-                case 5 -> acessarMenuAdmin.acessarMenuAdmin();
+                case 5 -> acessarMenuAdmin.AdmMenu();
                 case 6 -> System.out.println("Saindo do sistema...");
                 default -> System.out.println("Opção inválida. Tente novamente.");
             }
