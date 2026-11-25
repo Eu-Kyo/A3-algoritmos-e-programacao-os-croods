@@ -15,30 +15,28 @@ public class SistemaDoMercado {
 
         
         do {
-            System.out.println(" Menu:");
+            System.out.println(" Menu Principal:");
             System.out.println("================================");
-            System.out.println("1. Adicionar na Sacola");
-            System.out.println("2. Listar Produtos");
-            System.out.println("3. Remover Produto");
-            System.out.println("4. Finalizar a Compra");
-            System.out.println("5. Acessar Menu Admin");
-            System.out.println("6. Sair");
+            System.out.println("1. Menu de Produtos");
+            System.out.println("2. Menu do Cliente");
+            System.out.println("3. Realizar Compra");
+            System.out.println("4. Menu Admin");
+            System.out.println("0. Sair");
             System.out.println("Escolha uma opção:");
             
             opcao = sc.nextInt();
             sc.nextLine();
             
             switch (opcao) {
-                //case 1 -> adicionarSacola();
-                //case 2 -> listarProdutos();
-                //case 3 -> removerProduto();
-                //case 4 -> finalizarCompra();
-                case 5 -> acessarMenuAdmin.AdmMenu();
-                case 6 -> System.out.println("Saindo do sistema...");
+                case 1 -> menuProdutos.menu();
+                case 2 -> menuCliente.menu();
+                case 3 -> menuCompra.menu();
+                case 4 -> acessarMenuAdmin.AdmMenu();
+                case 0 -> System.out.println("Saindo do sistema...");
                 default -> System.out.println("Opção inválida. Tente novamente.");
             }
             
-        } while (opcao != 6);
+        } while (opcao != 0);
         sc.close();
     }
 }
