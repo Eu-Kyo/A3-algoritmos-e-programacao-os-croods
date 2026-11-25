@@ -30,7 +30,7 @@ public class MenuPrincipal {
                 case 1 -> listaProd.imprimir();
                 case 2 -> menuCli.menu();
                 case 3 -> menuProd.menu();
-                case 4 -> menuAdm.acessarMenuAdmin();
+                case 4 -> menuAdm.AdmMenu();
                 case 0 -> System.out.println("Saindo do sistema...");
                 default -> System.out.println("Opção inválida. Tente novamente.");
             }

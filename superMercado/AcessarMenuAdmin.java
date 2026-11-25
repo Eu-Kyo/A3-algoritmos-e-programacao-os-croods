@@ -1,6 +1,6 @@
 import java.util.Scanner;
 public class AcessarMenuAdmin {
-    public void acessarMenuAdmin() {
+    public void AdmMenu() {
         Scanner sc = new Scanner(System.in);
         System.out.print("Digite a senha de acesso: ");
         String senha = sc.nextLine();
