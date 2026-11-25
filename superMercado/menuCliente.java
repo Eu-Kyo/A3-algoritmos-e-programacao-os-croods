@@ -3,9 +3,11 @@ public class menuCliente {
 
      public static void menu() {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Menu de Produtos:");
+        System.out.println("Menu de Clientes:");
         System.out.println("================================");
-        System.out.println("1. Cadastrar CLiente");
+        System.out.println("1. Cadastrar Cliente");
+        System.out.println("0. Voltar ao Menu Principal");
+
 
         int opcao = sc.nextInt();
 

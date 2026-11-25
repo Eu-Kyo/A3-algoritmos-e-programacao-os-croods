@@ -12,7 +12,7 @@ public class menuProdutos {
             //nn sei se isso ta certp, mas minha inteção foi dps q vcs cadastrarem os produtos, ele pegar a quantidade q tem aí e mostrar todos
 
         System.out.println("Pressione enter para voltar ao menu principal...");
-        sc.next();
+        sc.nextLine();
         return;
     }
 }
