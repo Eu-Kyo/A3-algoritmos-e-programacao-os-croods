@@ -13,7 +13,7 @@ public class MenuClientes {
 
         int opcao = sc.nextInt();
         switch (opcao) {
-            //case 1 -> cadastrarCliente();
+            case 1 -> new CadastrarClientes().menu();
             case 0 -> Voltar();
             default -> Voltar();
     }
