@@ -11,8 +11,8 @@ public class CadastroProduto {
     public void menu(){
         Screen.clear();
         System.out.println("====| CADASTRO DE PRODUTOS |====\n");
-        System.out.println(" (1) Cadastrar Produtos\n (2) Listar Produtos\n (3) Buscar Produto");
-        System.out.println(" (4) Alterar Produto\n (5) Remover Produto\n (0) Sair\n");
+        System.out.println(" 1. Cadastrar Produtos\n 2. Listar Produtos\n 3. Buscar Produto");
+        System.out.println(" 4. Alterar Produto\n 5. Remover Produto\n 0. Sair\n");
         Scanner sc = new Scanner(System.in);
         
         int op = sc.nextInt();
