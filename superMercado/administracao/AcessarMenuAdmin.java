@@ -1,4 +1,5 @@
 package administracao;
+
 import java.util.Scanner;
 public class AcessarMenuAdmin {
     public void AdmMenu() {
@@ -17,7 +18,7 @@ public class AcessarMenuAdmin {
             int opcao = sc.nextInt();
 
             switch (opcao) {
-                //case 1 -> cadastrarProduto();
+                //case 1 -> ;
                 //case 2 -> removerProduto();
                 //case 3 -> removerCliente();
                 case 0 -> Voltar();

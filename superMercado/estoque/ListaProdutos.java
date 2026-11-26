@@ -4,8 +4,9 @@
 import java.util.Scanner;
 
 public class ListaProdutos{
+    //public String prods[] = {"Arroz", "Feijão", "Macarrão", "Limão"};
     public Produto lista[];
-    public int qntd;    
+    public int qntd = 4;    
 
     public ListaProdutos(){
         lista = new Produto[100];
@@ -45,13 +46,23 @@ public class ListaProdutos{
     }
     public void imprimir(){
         Screen.clear();
-        System.out.println("Listar produtos");}
+        System.out.println("=====| PRODUTOS EM ESTOQUE |=====\n");
+        for(int i = 0; i < qntd; i++){
+            lista[i].imprimir(i);
+        }
+    }
 
     public void buscar(){
         System.out.println("> ERRO: Função não implementada no momento!");
     }
 
-    public void salvar(){}
+    public void salvar(){
+        Produto prods[] = new Produto[qntd];
+        for(int i = 0; i < qntd; i++){
+            prods[i] = lista[i];
+        }
+        CsvUtil.salvar(prods, "./superMercado/estoque/listaProdutos.csv");
+    }
 
     public void carregarDados(){}
 }

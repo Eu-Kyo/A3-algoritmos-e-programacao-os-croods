@@ -11,8 +11,8 @@ public class Produto {
         this.id = id;
     }
 
-    public void imprimirCod(){  // esse codProd é a posição do produto na lista, por enquanto ta dando erro
-        //System.out.println("COD: "+ codProd + "\nID: "+ id + "\nNome: " + nome + "\n Preço: " + preco);
-        System.out.println("ID: "+ id + "\nNome: " + nome + "\n Preço: " + preco);                      // ID = unico para o produto,útil pra parte de pesquisa de produtos
+    public void imprimir(int codProd){  // esse codProd é a posição do produto na lista, por enquanto ta dando erro
+        System.out.println("COD: "+ codProd + "\nID: "+ id + "\nNome: " + nome + "\n Preço: " + preco);
+        //System.out.println("ID: "+ id + "\nNome: " + nome + "\n Preço: " + preco);                      // ID = unico para o produto,útil pra parte de pesquisa de produtos
     }
 }

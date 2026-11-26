@@ -9,10 +9,11 @@ public class MenuPrincipal {
         int opcao;
 
         AcessarMenuAdmin menuAdm = new AcessarMenuAdmin();
-        CadastroProduto menuProd = new CadastroProduto();
         ListaProdutos listaProd = new ListaProdutos();
         MenuClientes menuCli = new MenuClientes();
         ListaClientes listaCli = new ListaClientes();
+        Sacola sacola = new Sacola();
+        
 
         do {    
             System.out.println("====| Menu Principal |====");
@@ -30,7 +31,7 @@ public class MenuPrincipal {
             switch (opcao) {
                 case 1 -> listaProd.imprimir();
                 case 2 -> menuCli.menu();
-                case 3 -> menuProd.menu();
+                case 3 -> sacola.adicionar();
                 case 4 -> menuAdm.AdmMenu();
                 case 0 -> System.out.println("Saindo do sistema...");
                 default -> System.out.println("Opção inválida. Tente novamente.");

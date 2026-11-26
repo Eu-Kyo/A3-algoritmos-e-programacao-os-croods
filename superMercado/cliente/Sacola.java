@@ -20,9 +20,9 @@ public class Sacola {
         int cod;
 
         do{
+            listaProd.imprimir();
             System.out.println("> Qual produto deseja adicionar na sacola? (Código)");
             System.out.println("==================================================="); 
-            listaProd.imprimir();
             cod = sc.nextInt();
             sc.nextLine();      // buffer wow   
             
