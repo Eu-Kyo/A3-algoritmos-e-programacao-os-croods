@@ -1,3 +1,4 @@
+package administracao;
 import java.util.Scanner;
 public class AcessarMenuAdmin {
     public void AdmMenu() {

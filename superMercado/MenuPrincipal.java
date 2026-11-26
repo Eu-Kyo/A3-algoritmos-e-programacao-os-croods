@@ -13,12 +13,12 @@ public class MenuPrincipal {
         MenuClientes menuCli = new MenuClientes();
         ListaClientes listaCli = new ListaClientes();
 
-        do { 
+        do {    
             System.out.println("====| Menu Principal |====");
             System.out.println("================================");
             System.out.println("1. Ver Produtos");          // ListaProdutos
             System.out.println("2. Menu do Cliente");       // MenuClientes
-            System.out.println("3. Realizar Compra");       // MenuProdutps
+            System.out.println("3. Realizar Compra");       // Sacola
             System.out.println("4. Menu Admin");            // MenuADM
             System.out.println("0. Sair");
             System.out.println("Escolha uma opção:");
