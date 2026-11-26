@@ -1,5 +1,4 @@
-package administracao;
-
+package src.main.administracao;
 import java.util.Scanner;
 public class AcessarMenuAdmin {
     public void AdmMenu() {
@@ -7,6 +6,7 @@ public class AcessarMenuAdmin {
         System.out.print("Digite a senha de acesso: ");
         String senha = sc.nextLine();
 
+        
         if (senha.equals("6769")) {
             System.out.println("Menu de admin:");
             System.out.println("================================");
@@ -16,7 +16,6 @@ public class AcessarMenuAdmin {
             System.out.println("0. Voltar");
 
             int opcao = sc.nextInt();
-
             switch (opcao) {
                 //case 1 -> ;
                 //case 2 -> removerProduto();

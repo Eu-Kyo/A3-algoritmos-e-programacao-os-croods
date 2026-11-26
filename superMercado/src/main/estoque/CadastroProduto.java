@@ -1,4 +1,7 @@
+package src.main.estoque;
 import java.util.Scanner;
+
+import src.main.Screen;
 
 public class CadastroProduto {
     ListaProdutos listaProd;

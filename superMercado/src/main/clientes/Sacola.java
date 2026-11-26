@@ -1,7 +1,12 @@
+package src.main.clientes;
 /*  
     Classe pra separar o controle do Estoque (admin) com o controle da Sacola(cliente)
 */
 import java.util.Scanner;
+
+import src.main.Screen;
+import src.main.estoque.ListaProdutos;
+import src.main.estoque.Produto;
 
 public class Sacola {
     //static String prods[];

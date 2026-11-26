@@ -1,3 +1,4 @@
+package src.main;
 import java.io.IOException;
 
 public class Screen {

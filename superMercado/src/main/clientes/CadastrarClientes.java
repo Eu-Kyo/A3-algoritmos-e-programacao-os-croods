@@ -1,4 +1,7 @@
+package src.main.clientes;
 import java.util.Scanner;
+
+import src.main.MenuPrincipal;
 public class CadastrarClientes {
     private String nome;
     private String cpf;

@@ -1,3 +1,4 @@
+package src.main.estoque;
 public class Produto {
     String nome;
     double preco;

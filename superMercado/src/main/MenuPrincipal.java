@@ -1,5 +1,11 @@
-import administracao.AcessarMenuAdmin;
+package src.main;
 import java.util.Scanner;
+
+import src.main.administracao.AcessarMenuAdmin;
+import src.main.clientes.ListaClientes;
+import src.main.clientes.MenuClientes;
+import src.main.clientes.Sacola;
+import src.main.estoque.ListaProdutos;
 
 public class MenuPrincipal {
     public MenuPrincipal(){}

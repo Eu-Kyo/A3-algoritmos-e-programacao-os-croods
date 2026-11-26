@@ -1,7 +1,10 @@
+package src.main.estoque;
 /* 
     Menu Clientes e Menu Produtos tem, basicamente falando, os mesmos métodos, só mudando o contexto 
 */
 import java.util.Scanner;
+
+import src.main.clientes.Sacola;
 
 public class MenuProdutos {
     public static void menu() {

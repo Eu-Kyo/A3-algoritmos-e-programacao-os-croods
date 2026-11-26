@@ -1,7 +1,11 @@
+package src.main.estoque;
 /* 
     Lista Clientes e Lista Produtos tem, basicamente falando, os mesmos métodos, só mudando o contexto 
 */
 import java.util.Scanner;
+
+import src.main.CsvUtil;
+import src.main.Screen;
 
 public class ListaProdutos{
     //public String prods[] = {"Arroz", "Feijão", "Macarrão", "Limão"};
