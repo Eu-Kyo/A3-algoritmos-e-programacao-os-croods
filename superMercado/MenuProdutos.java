@@ -6,6 +6,7 @@ import java.util.Scanner;
 public class MenuProdutos {
     public static void menu() {
         ListaProdutos listaProd = new ListaProdutos();
+        Sacola sacola = new Sacola();
         Scanner sc = new Scanner(System.in);
         System.out.println("Menu de Produtos:");
         System.out.println("================================");
@@ -17,12 +18,11 @@ public class MenuProdutos {
             
         int opcao = sc.nextInt();
 
-        switch (opcao) {
-            case 1 -> listaProd.adicionar();
-            case 2 -> listaProd.imprimir();
-            case 3 -> listaProd.buscar();       // Não implementado
-            case 4 -> listaProd.remover();
-            case 5 -> listaProd.salvar();
+        switch (opcao) {        // Acessar a Sacola
+            case 1 -> sacola.adicionar();
+            case 2 -> sacola.imprimir();
+            case 3 -> sacola.remover();
+            case 4 -> sacola.salvar();
             case 0 -> Voltar();
             default -> Voltar();
     }
