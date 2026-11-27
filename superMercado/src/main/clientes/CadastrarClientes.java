@@ -69,4 +69,12 @@ public class CadastrarClientes {
         }
         while (opcao < 1 || opcao > 5);
     }
+    private String arrumarNome() {
+        if (this.nome == null || this.nome.isEmpty()) {
+            throw new IllegalArgumentException("O nome não pode ser nulo ou vazio.");
+        }
+        this.nome = this.nome.replaceAll("\\s+", " ").trim();
+
+        return this.nome;
+    }
 }

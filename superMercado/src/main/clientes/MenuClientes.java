@@ -9,8 +9,8 @@ public class MenuClientes {
         Scanner sc = new Scanner(System.in);
         System.out.println("Menu de Clientes:");
         System.out.println("================================");
-        System.out.println("1. Cadastrar Cliente");
         System.out.println("0. Voltar ao Menu Principal");
+        System.out.println("1. Cadastrar Cliente");
 
         int opcao = sc.nextInt();
         switch (opcao) {
