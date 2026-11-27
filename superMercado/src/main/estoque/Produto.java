@@ -11,9 +11,12 @@ public class Produto {
         this.preco = preco;
         this.id = id;
     }
+        public Produto(String nome, double preco){
+        this.nome = nome;
+        this.preco = preco;
+    }
 
     public void imprimir(int codProd){  // esse codProd é a posição do produto na lista, por enquanto ta dando erro
-        System.out.println("COD: "+ codProd + "\nID: "+ id + "\nNome: " + nome + "\n Preço: " + preco);
-        //System.out.println("ID: "+ id + "\nNome: " + nome + "\n Preço: " + preco);                      // ID = unico para o produto,útil pra parte de pesquisa de produtos
+        System.out.println("ID: "+ id + " | Nome: " + nome + " | Preço:" + preco);                      // ID = unico para o produto,útil pra parte de pesquisa de produtos
     }
 }

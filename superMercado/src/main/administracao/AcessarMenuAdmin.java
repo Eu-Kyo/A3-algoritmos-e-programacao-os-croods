@@ -1,7 +1,12 @@
 package src.main.administracao;
+import src.main.estoque.ListaProdutos;
+import src.main.clientes.ListaClientes;
 import java.util.Scanner;
+
 public class AcessarMenuAdmin {
     public void AdmMenu() {
+        ListaProdutos listaProd = new ListaProdutos();
+        ListaClientes listaCli = new ListaClientes();
         Scanner sc = new Scanner(System.in);
         System.out.print("Digite a senha de acesso: ");
         String senha = sc.nextLine();
@@ -17,9 +22,9 @@ public class AcessarMenuAdmin {
 
             int opcao = sc.nextInt();
             switch (opcao) {
-                //case 1 -> ;
-                //case 2 -> removerProduto();
-                //case 3 -> removerCliente();
+                case 1 -> listaProd.cadastrar();
+                case 2 -> listaProd.remover();
+                case 3 -> listaCli.remover();
                 case 0 -> Voltar();
                 default -> Voltar();
             }

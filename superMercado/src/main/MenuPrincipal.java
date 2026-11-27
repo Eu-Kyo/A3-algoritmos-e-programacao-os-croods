@@ -22,7 +22,7 @@ public class MenuPrincipal {
         
 
         do {    
-            System.out.println("====| Menu Principal |====");
+            System.out.println("=======| Menu Principal |=======");
             System.out.println("================================");
             System.out.println("1. Ver Produtos");          // ListaProdutos
             System.out.println("2. Menu do Cliente");       // MenuClientes
